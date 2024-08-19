@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+<head><title>PAYMENT FORM</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css" ></link>
+     <style>
+          h1{text-shadow: 2px 2px 5px rgb(229, 255, 0);}
+          h2{text-shadow: 2px 2px 4px red}
+          fieldset{text-shadow: 2px 2px 20px ;}
+          p{text-shadow: 2px 2px 20px ;} 
+          .double-underline { 
+    text-decoration: underline double; 
+    text-shadow: 2px 5px 5px rgb(229,255, 0);} 
+    marquee{
+     text-shadow: 8px 5px 7px rgb(10, 210, 236);
+    }
+    
+     </style>
+</head>
+<body><font size="5" face="ALGERIAN"><marquee>CREATED BY OM</marquee>
+
+</font>
+     <div class="container">
+          <form action="" method="get">
+               
+     <center><FONT SIZE="4"FACE="ALGERIAN"><h1><p class="double-underline">*PAYMENT FORM*</p></h1></center>   
+           <u><h2>&diams; Contact Information &diams;</h2>
+        <P>Name:-*<input type="text" name="name" required placeholder="ENTER YOUR NAME"></P>
+         <fieldset>
+            <legend>Gender:*</legend>   
+     <p>
+      Male:<input type="radio" name="gender" id="male"required> Female:<input type="radio" name="gender" id="male"required>
+    </p>
+         </fieldset>
+    <p>Address:-*<textarea name="address" id="address"cols="100" rows="4"required placeholder="ENTER THE ADDRESS"></textarea></p>
+    <p>Email:-* <input type="email" name="email" id="email" placeholder="ENTER EMAIL" required></p>
+    <p>Pincode:-* <input type="number" name="pincode" id="pincode"required placeholder="ENTER PINCODE"></p>
+        <h2>&diams; payment Information &diams;</h2>
+<p>Card Type:-*  
+<select Name="card_type" id="card_type"required>
+     <option value="">-------------------SELECT A CARD TYPE-------------------</option>
+     <option value="VISA"> VISA </option>
+     <option value="RUPAY"> RUPAY </option>
+     <option value="MASTERCARD"> MASTERCARD </option>
+</select>
+</p>
+<p>Card Number:-* <input type="number" name="card_number" id="card_number"required placeholder="ENTER CARD NUMBER"></p>
+<p>Expiration Date:-* <input type="date" name="exp_date" id="exp_date"required></p>
+<P>CVV:-* <input type="password" name="cvv" id="cvv"required placeholder="ENTER CVV NUMBER"></P>
+<center><input type="submit"value="Pay Now";></input></center></u>
+
+</form>
+</div>
+</body>
+</html>
